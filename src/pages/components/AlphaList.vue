@@ -12,7 +12,7 @@ export default{
   },
   data () {
     return {
-      flag: false
+      flag: 111
     }
   },
   computed: {
@@ -30,7 +30,11 @@ export default{
         this.$emit('handleEle', this.alphalist[index])
         console.log(this.alphalist[index])
       }, 100)
+      console.log(222)
     }
+  },
+  mounted () {
+    console.log(this.alphalist, this.flag)
   }
 }
 </script>
