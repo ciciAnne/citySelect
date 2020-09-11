@@ -20,4 +20,4 @@ npm run build --report
 
 实现了一个选择城市的页面
 
-![img](https://github.com/ciciAnne/citySelect/blob/master/media/selectUI.gif)
+<img src="https://github.com/ciciAnne/citySelect/blob/master/media/selectUI.gif" style="width:45%;"/>
