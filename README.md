@@ -20,8 +20,4 @@ npm run build --report
 
 实现了一个选择城市的页面
 
-<<<<<<< HEAD
-![img](./media/selectUI.gif =400x200)
-=======
 <img src="https://github.com/ciciAnne/citySelect/blob/master/media/selectUI.gif"/>
->>>>>>> 12ffd481e8e8a095e388c51da538022941bac07c
