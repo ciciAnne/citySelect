@@ -12,7 +12,7 @@ export default{
   },
   data () {
     return {
-      flag: 111
+      timer: null
     }
   },
   computed: {
@@ -25,16 +25,15 @@ export default{
       this.$emit('handleEle', e.target.innerText)
     },
     handleMove (e) {
-      setTimeout(() => {
-        let index = Math.floor((e.touches[0].clientY - this.letterATop) / 20)
+      if (this.timer) {
+        clearTimeout(this.timer)
+      }
+      this.timer = setTimeout(() => {
+        let index = Math.floor((e.touches[0].clientY - this.letterATop) / 20) // 计算出第几位字母
         this.$emit('handleEle', this.alphalist[index])
         console.log(this.alphalist[index])
-      }, 100)
-      console.log(222)
+      }, 200)
     }
-  },
-  mounted () {
-    console.log(this.alphalist, this.flag)
   }
 }
 </script>

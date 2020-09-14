@@ -20,4 +20,4 @@ npm run build --report
 
 实现了一个选择城市的页面
 
-<img src="./media/selectUI.gif" style="width:35%;"/>
+![img](./media/selectUI.gif =400x200)
